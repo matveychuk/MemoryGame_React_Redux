@@ -45,7 +45,7 @@ export default class Field extends React.Component {
     }
 
     transferClicked = () => {
-        console.log("clicked 1",this.state.clickedItems);
+        // console.log("clicked 1",this.state.clickedItems);
         if(this.state.clickedItems.length === 2) {
             setTimeout(() => {
                 this.props.compareClicked(this.state.clickedItems);
