@@ -1,0 +1,82 @@
+// Это изначальные данные для store нашего приложения, тут мы должы будем 
+// указывать все данные которые мы будем отрисовывать, состояние компонентов здесь
+// хранить не имеет смысла, а вот данные которые мы можем как-то менять, если в будущем 
+// для получения этих данных мы будем использовать базу данных - да, тогда мы можем использовать store.
+
+// Но на самом деле это лишь относительное соглашение, и javascript нас ни в чем не ограничивает. 
+
+export default ({
+    numbers : 
+    [
+        {value: 1,
+         initial: true,
+         disable: false,
+         clicked: false},
+        {value: 1,
+         initial: true,
+         disable: false,
+         clicked: false},
+        {value: 2,
+         initial: true,
+         disable: false,
+         clicked: false},
+        {value: 2,
+         initial: true,
+         disable: false,
+         clicked: false},
+        {value: 3,
+         initial: true,
+         disable: false,
+         clicked: false},
+        {value: 3,
+         initial: true,
+         disable: false,
+         clicked: false},
+        {value: 4,
+         initial: true,
+         disable: false,
+         clicked: false},
+        {value: 4,
+         initial: true,
+         disable: false,
+         clicked: false},
+        {value: 5,
+         initial: true,
+         disable: false,
+         clicked: false},
+        {value: 5,
+         initial: true,
+         disable: false,
+         clicked: false},
+        {value: 6,
+         initial: true,
+         disable: false,
+         clicked: false},
+        {value: 6,
+         initial: true,
+         disable: false,
+         clicked: false},
+        {value: 7,
+         initial: true,
+         disable: false,
+         clicked: false},
+        {value: 7,
+         initial: true,
+         disable: false,
+         clicked: false},
+        {value: 8,
+         initial: true,
+         disable: false,
+         clicked: false},
+        {value: 8,
+         initial: true,
+         disable: false,
+         clicked: false},
+         
+    ],
+    results: [
+        {gameEnd: false,
+        score: 0,
+        timer: 0}
+    ]
+});
